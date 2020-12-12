@@ -1,6 +1,7 @@
 import sqlite3
 import time
 
+# CLASS PART
 
 class Book():
     def __init__(self, book_name, writer, page_amount, price, edition, situation):
@@ -219,6 +220,8 @@ class Manager():
             print(i)
         print("*********************************************\n")
 
+
+# MAIN PART
 
 database = Database()
 
@@ -505,36 +508,6 @@ while True:
                 print("Added!")
                 new_decision3 = input("Please enter something to go back to menu\n")
                 continue
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
